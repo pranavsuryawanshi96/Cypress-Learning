@@ -12,11 +12,11 @@ describe('HerokuApp', () => {
     
 
     // cy.get('#password').type('SuperSecretPassword!')
-
+    
     });
 
 });
-
+    
 
 
 // describe('HerokuooooApp', () => {
@@ -30,6 +30,7 @@ describe('HerokuApp', () => {
 //         cy.get('.radius').click()
 //     });
 // })
+
 
 describe('HerokuooooApp', () => {
     it('Login', () => {
