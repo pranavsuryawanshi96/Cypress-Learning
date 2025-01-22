@@ -1,25 +1,4 @@
-describe('HerokuApp', () => {
-
-    it('Login', () => {
-
-    cy.visit('https://zepto-masai.netlify.app/signup')
-
-    cy.get('#signupUsername').type('pranav7789')
-    cy.get('#signupEmail').type('Patil@gmail.com')
-    cy.get('#signupContact').type('9066189696')
-    cy.get('#signupPassword').type('P12345678')
-    cy.get('#signupForm > button').click()         
-    
-
-    // cy.get('#password').type('SuperSecretPassword!')
-    
-    });
-
-});
-    
-
-
-// describe('HerokuooooApp', () => {
+ // describe('HerokuooooApp', () => {
 //     it('Login', () => {
 //         cy.visit('https://the-internet.herokuapp.com/login')
 //         cy.url().should('eq','https://the-internet.herokuapp.com/login')
@@ -43,7 +22,7 @@ describe('HerokuooooApp', () => {
     //     //  cy.get('#username').type('tomsmith')
     //     //  cy.get('#password').type('SuperSecretPassword!')
     //     cy.get('.radius').click()
-
+       
         cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
         //   cy.xpath("//input[@placeholder='Username']").should('be.visible'); // for checking  text is visible  or not 
           cy.xpath('//input[@placeholder="Password"]').should('be.visible');
