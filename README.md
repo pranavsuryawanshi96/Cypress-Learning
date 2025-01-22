@@ -21,11 +21,4 @@ Cypress is a modern testing framework designed for web applications. It provides
 - Handling dynamic elements and waits
 - Testing user interactions, forms, and navigation flows
 
-## 🚀 Projects
-Here are some projects and scenarios I've been working on using Cypress:
-1. **Redbus Automation**: Automated ticket booking workflows.
-2. **Resume Builder Testing**: Tested form validations and UI interactions.
-3. **E-commerce Checkout Flow**: Simulated user behavior during product purchases.
-
-## 📂 Repository Structure
 
